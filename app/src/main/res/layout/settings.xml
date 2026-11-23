@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:paddingHorizontal="24dp" android:paddingVertical="28dp">
+        <Switch android:id="@+id/icons" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:text="@string/feature" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:text="@string/summary" android:textAppearance="?android:attr/textAppearanceMedium" />
+        <Switch android:id="@+id/stack" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:minHeight="56dp" android:text="@string/stack" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:text="@string/stack_summary" android:textAppearance="?android:attr/textAppearanceMedium" />
+        <Switch android:id="@+id/notification_glass" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:minHeight="56dp" android:text="@string/notification_glass" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"
+            android:text="@string/notification_glass_summary" android:textAppearance="?android:attr/textAppearanceMedium" />
+        <Switch android:id="@+id/lock_center" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:minHeight="56dp" android:text="@string/lock_center" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"
+            android:text="@string/lock_center_summary" android:textAppearance="?android:attr/textAppearanceMedium" />
+        <Button android:id="@+id/display_style" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/display_style" android:layout_marginTop="8dp" />
+        <Button android:id="@+id/clock_weights" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/clock_weights" android:layout_marginTop="8dp" />
+        <Switch android:id="@+id/widget_material" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:minHeight="56dp" android:text="@string/widget_material" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"
+            android:text="@string/widget_material_summary" android:textAppearance="?android:attr/textAppearanceMedium" />
+        <Switch android:id="@+id/dock" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:minHeight="56dp" android:text="@string/fold_dock" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:text="@string/dock_summary" android:textAppearance="?android:attr/textAppearanceMedium" />
+        <Switch android:id="@+id/dock_glass" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:minHeight="56dp" android:text="@string/dock_glass" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:text="@string/dock_glass_summary" android:textAppearance="?android:attr/textAppearanceMedium" />
+        <Switch android:id="@+id/control_glass" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:text="@string/control_glass" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Switch android:id="@+id/folder_glass" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:text="@string/folder_glass" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Switch android:id="@+id/recents_clear_glass" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:text="@string/recents_clear_glass" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Switch android:id="@+id/suggestion_glass" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:text="@string/suggestion_glass" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Switch android:id="@+id/pager_glass" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:text="@string/pager_glass" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Switch android:id="@+id/assistant_glass" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:text="@string/assistant_glass" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Switch android:id="@+id/assistant_slide" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:text="@string/assistant_slide" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Switch android:id="@+id/assistant_right" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:text="@string/assistant_right" android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp"
+            android:text="@string/scope_hint" android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+</ScrollView>

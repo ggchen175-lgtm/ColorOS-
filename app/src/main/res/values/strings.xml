@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">炒鸡美化</string>
+    <string name="feature">状态栏图标重绘</string>
+    <string name="stack">vivo 样式通知堆叠</string>
+    <string name="stack_summary">同组通知收起时显示一张前卡，后方最多露出两层。展开可查看组内通知。</string>
+    <string name="summary">统一使用圆角信号柱、弧形 Wi-Fi 和内嵌数字电池。</string>
+    <string name="fold_dock">强制启用 Fold Dock 背景</string>
+    <string name="dock_summary">使用系统桌面的折叠屏底栏背景。首次使用时，在 LSPosed 中勾选「系统桌面」并重启桌面。</string>
+    <string name="dock_glass">液态玻璃</string>
+    <string name="notification_glass">通知液态玻璃</string>
+    <string name="lock_center">下拉锁屏通知中心</string>
+    <string name="widget_material">锁屏小组件液态玻璃</string>
+    <string name="widget_material_summary">为锁屏时钟下方小组件的原生底板添加实时折射和边缘高光。</string>
+    <string name="lock_center_summary">分离布局下，从左上角下拉，在通知中心查看锁屏样式，上滑直接回到原应用。</string>
+    <string name="notification_glass_summary">通知卡片随下拉背景实时折射，并沿圆角显示亮边。</string>
+    <string name="dock_glass_summary">将 Dock 底板替换为带边缘折射和高光的实时玻璃。</string>
+    <string name="scope_hint">首次使用时，在 LSPosed 中启用「炒鸡美化」，勾选「系统界面」并重载系统界面。之后可直接在这里开关。</string>
+    <string-array name="scope"><item>com.android.systemui</item><item>com.android.launcher</item><item>com.coloros.assistantscreen</item></string-array>
+    <string name="folder_glass">桌面文件夹玻璃</string>
+    <string name="suggestion_glass">小布建议玻璃</string>
+    <string name="pager_glass">问小布与桌面分页玻璃</string>
+    <string name="assistant_glass">负一屏玻璃</string>
+    <string name="assistant_slide">负一屏直滑</string>
+    <string name="assistant_right">负一屏放在桌面最右侧</string>
+    <string name="clock_weights">时间与日期字重</string>
+    <string name="time_weight">时间字重</string>
+    <string name="date_weight">日期字重</string>
+    <string name="clock_sample">02:25</string>
+    <string name="date_sample">11月21日周六 · 丙午年十月十三</string>
+    <string-array name="clock_weight_names"><item>常规</item><item>中等</item><item>半粗</item><item>粗体</item></string-array>
+    <string name="display_style">通知显示方式</string>
+    <string name="display_style_current">通知显示方式 · %1$s</string>
+    <string-array name="display_styles"><item>数量</item><item>叠放</item><item>列表</item></string-array>
+    <string name="recents_clear_glass">最近任务清除按钮玻璃</string>
+    <string name="control_glass">控制中心液态玻璃</string>
+</resources>

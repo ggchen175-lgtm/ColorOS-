@@ -1,0 +1,16 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:paddingHorizontal="24dp" android:paddingVertical="16dp">
+        <TextView android:id="@+id/date_sample" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:gravity="center" android:text="@string/date_sample" android:textSize="17sp" />
+        <TextView android:id="@+id/time_sample" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:gravity="center" android:text="@string/clock_sample" android:textSize="58sp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time_weight" android:labelFor="@id/time_weight" />
+        <Spinner android:id="@+id/time_weight" android:layout_width="match_parent" android:layout_height="48dp"
+            android:entries="@array/clock_weight_names" android:prompt="@string/time_weight" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/date_weight" android:labelFor="@id/date_weight" />
+        <Spinner android:id="@+id/date_weight" android:layout_width="match_parent" android:layout_height="48dp"
+            android:entries="@array/clock_weight_names" android:prompt="@string/date_weight" />
+    </LinearLayout>
+</ScrollView>

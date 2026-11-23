@@ -1,0 +1,6 @@
+The edge refraction profile and directional highlight in DockGlass.java are adapted from
+Kyant0/AndroidLiquidGlass, commit 65ab177e90e5c1d8c62e70cf7755841982da65f6.
+https://github.com/Kyant0/AndroidLiquidGlass
+Original source: backdrop/src/commonMain/kotlin/com/kyant/backdrop/internal/Shaders.kt
+License: Apache License 2.0, reproduced in AndroidLiquidGlass-LICENSE.txt.
+Changes: native Dock distance texture, combined optical and highlight pass, ColorOS backdrop input.
